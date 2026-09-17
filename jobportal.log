@@ -1,0 +1,89 @@
+2026-07-13T14:58:42.777+05:30  INFO 35336 --- [jobportal] [restartedMain] c.e.jobportal.JobportalApplication       : Starting JobportalApplication using Java 25.0.3 with PID 35336 (/Users/siyaram/eclipse-workspace/spring/jobportal/target/classes started by siyaram in /Users/siyaram/eclipse-workspace/spring/jobportal)
+2026-07-13T14:58:42.778+05:30  INFO 35336 --- [jobportal] [restartedMain] c.e.jobportal.JobportalApplication       : No active profile set, falling back to 1 default profile: "default"
+2026-07-13T14:58:42.784+05:30  INFO 35336 --- [jobportal] [restartedMain] .s.b.d.c.l.DockerComposeLifecycleManager : Using Docker Compose file /Users/siyaram/eclipse-workspace/spring/jobportal/compose.yml
+2026-07-13T14:58:43.242+05:30  INFO 35336 --- [jobportal] [restartedMain] .s.b.d.c.l.DockerComposeLifecycleManager : There are already Docker Compose services running, skipping startup
+2026-07-13T14:58:43.453+05:30  INFO 35336 --- [jobportal] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-07-13T14:58:43.474+05:30  INFO 35336 --- [jobportal] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19 ms. Found 4 JPA repository interfaces.
+2026-07-13T14:58:43.589+05:30  INFO 35336 --- [jobportal] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-07-13T14:58:43.590+05:30  INFO 35336 --- [jobportal] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-13T14:58:43.591+05:30  INFO 35336 --- [jobportal] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-13T14:58:43.600+05:30  INFO 35336 --- [jobportal] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 357 ms
+2026-07-13T14:58:43.639+05:30  INFO 35336 --- [jobportal] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2026-07-13T14:58:43.658+05:30  INFO 35336 --- [jobportal] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@42c12d7d
+2026-07-13T14:58:43.659+05:30  INFO 35336 --- [jobportal] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2026-07-13T14:58:43.660+05:30  INFO 35336 --- [jobportal] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-07-13T14:58:43.696+05:30  INFO 35336 --- [jobportal] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-07-13T14:58:43.700+05:30  INFO 35336 --- [jobportal] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://127.0.0.1:3306/jobportal]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 9.7.1
+	Default catalog/schema: jobportal/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-07-13T14:58:43.862+05:30  INFO 35336 --- [jobportal] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-07-13T14:58:43.863+05:30  INFO 35336 --- [jobportal] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-07-13T14:58:44.022+05:30  WARN 35336 --- [jobportal] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-07-13T14:58:44.052+05:30  INFO 35336 --- [jobportal] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name jobPortalUsernamePwdAuthenticationProvider
+2026-07-13T14:58:44.238+05:30  INFO 35336 --- [jobportal] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-07-13T14:58:44.242+05:30  INFO 35336 --- [jobportal] [restartedMain] c.e.jobportal.JobportalApplication       : Started JobportalApplication in 1.508 seconds (process running for 80.735)
+2026-07-13T14:58:44.244+05:30  INFO 35336 --- [jobportal] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-07-13T14:58:44.244+05:30  WARN 35336 --- [jobportal] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-07-13T14:58:44.244+05:30  WARN 35336 --- [jobportal] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-07-13T14:59:05.629+05:30  INFO 35336 --- [jobportal] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-13T14:59:05.631+05:30  INFO 35336 --- [jobportal] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-07-13T14:59:05.634+05:30  INFO 35336 --- [jobportal] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-07-13T14:59:05.635+05:30  INFO 35336 --- [jobportal] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2026-07-13T14:59:05.638+05:30  INFO 35336 --- [jobportal] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2026-07-13T14:59:08.968+05:30  INFO 35804 --- [jobportal] [restartedMain] c.e.jobportal.JobportalApplication       : Starting JobportalApplication using Java 25.0.3 with PID 35804 (/Users/siyaram/eclipse-workspace/spring/jobportal/target/classes started by siyaram in /Users/siyaram/eclipse-workspace/spring/jobportal)
+2026-07-13T14:59:08.971+05:30  INFO 35804 --- [jobportal] [restartedMain] c.e.jobportal.JobportalApplication       : No active profile set, falling back to 1 default profile: "default"
+2026-07-13T14:59:09.016+05:30  INFO 35804 --- [jobportal] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-07-13T14:59:09.017+05:30  INFO 35804 --- [jobportal] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-07-13T14:59:09.030+05:30  INFO 35804 --- [jobportal] [restartedMain] .s.b.d.c.l.DockerComposeLifecycleManager : Using Docker Compose file /Users/siyaram/eclipse-workspace/spring/jobportal/compose.yml
+2026-07-13T14:59:09.713+05:30  INFO 35804 --- [jobportal] [OutputReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  Container jobportaldb Starting 
+2026-07-13T14:59:09.869+05:30  INFO 35804 --- [jobportal] [OutputReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  Container jobportaldb Started 
+2026-07-13T14:59:09.869+05:30  INFO 35804 --- [jobportal] [OutputReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  Container jobportaldb Waiting 
+2026-07-13T14:59:10.374+05:30  INFO 35804 --- [jobportal] [OutputReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  Container jobportaldb Healthy 
+2026-07-13T14:59:12.253+05:30  INFO 35804 --- [jobportal] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-07-13T14:59:12.304+05:30  INFO 35804 --- [jobportal] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 43 ms. Found 4 JPA repository interfaces.
+2026-07-13T14:59:12.813+05:30  INFO 35804 --- [jobportal] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-07-13T14:59:12.824+05:30  INFO 35804 --- [jobportal] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-13T14:59:12.824+05:30  INFO 35804 --- [jobportal] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-13T14:59:12.856+05:30  INFO 35804 --- [jobportal] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1228 ms
+2026-07-13T14:59:12.997+05:30  INFO 35804 --- [jobportal] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-07-13T14:59:13.369+05:30  INFO 35804 --- [jobportal] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7bfc1e91
+2026-07-13T14:59:13.370+05:30  INFO 35804 --- [jobportal] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-07-13T14:59:13.396+05:30  INFO 35804 --- [jobportal] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-07-13T14:59:13.442+05:30  INFO 35804 --- [jobportal] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.1.Final
+2026-07-13T14:59:13.852+05:30  INFO 35804 --- [jobportal] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-07-13T14:59:13.944+05:30  INFO 35804 --- [jobportal] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://127.0.0.1:3306/jobportal]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 9.7.1
+	Default catalog/schema: jobportal/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-07-13T14:59:14.869+05:30  INFO 35804 --- [jobportal] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-07-13T14:59:14.875+05:30  INFO 35804 --- [jobportal] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-07-13T14:59:14.940+05:30  INFO 35804 --- [jobportal] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-07-13T14:59:15.363+05:30  WARN 35804 --- [jobportal] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-07-13T14:59:15.420+05:30  INFO 35804 --- [jobportal] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name jobPortalUsernamePwdAuthenticationProvider
+2026-07-13T14:59:15.882+05:30  INFO 35804 --- [jobportal] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-07-13T14:59:15.889+05:30  INFO 35804 --- [jobportal] [restartedMain] c.e.jobportal.JobportalApplication       : Started JobportalApplication in 7.305 seconds (process running for 8.374)
+2026-07-13T14:59:15.891+05:30  WARN 35804 --- [jobportal] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-07-13T14:59:15.891+05:30  WARN 35804 --- [jobportal] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-07-13T15:02:00.512+05:30  INFO 35804 --- [jobportal] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-07-13T15:02:00.516+05:30  INFO 35804 --- [jobportal] [Thread-1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-13T15:02:00.524+05:30  INFO 35804 --- [jobportal] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-07-13T15:02:00.530+05:30  INFO 35804 --- [jobportal] [Thread-1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-07-13T15:02:00.532+05:30  INFO 35804 --- [jobportal] [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-07-13T15:02:00.537+05:30  INFO 35804 --- [jobportal] [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
